@@ -1,0 +1,21 @@
+{
+  "name": "presentacion5",
+  "version": "1.0.0",
+  "description": "Aplicacion de tienda",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Soriano Delgado",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1",
+    "sequelize": "^6.37.5"
+  }
+}
